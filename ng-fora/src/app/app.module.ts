@@ -21,6 +21,8 @@ import { UsersComponent } from './components/users/users.component';
 import { UserFormComponent } from './components/user-form/user-form.component';
 import {TopicsService} from "./services/topics.service";
 import { TopicsComponent } from './components/topics/topics/topics.component';
+import { TopicComponent } from './components/topics/topic/topic.component';
+import { CommentComponent } from './components/topics/comment/comment.component';
 
 
 const IS_PROD = false;
@@ -32,7 +34,7 @@ const IS_PROD = false;
     AppComponent, TemplateComponent, ServiceComponent,
     PipesComponent, FilterComponent, ViewChildComponent,
     SingleTopicViewComponent, DynamicComponent,
-    AttributeComponent, FormsComponent, UsersComponent, UserFormComponent, TopicsComponent
+    AttributeComponent, FormsComponent, UsersComponent, UserFormComponent, TopicsComponent, TopicComponent, CommentComponent
 
   ],
   entryComponents:[SingleTopicViewComponent],
